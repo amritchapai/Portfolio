@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import mern from "../assets/mern-stack.webp";
 import c from "../assets/cIcon.png";
 import cPlus from "../assets/c++.png";
@@ -12,8 +12,9 @@ import SkillCard from "./SkillCard";
 import { Laptop } from "lucide-react";
 
 const About = () => {
+  
   return (
-    <div className="flex flex-col bg-gray-800  w-full h-full py-5 gap-8">
+    <div className="flex flex-col bg-gray-800  w-full h-full py-20 gap-8">
       <div className="flex flex-row items-center px-3">
         <div className="flex flex-1">
           <hr className="w-full h-1 bg-white border-none rounded-md" />
