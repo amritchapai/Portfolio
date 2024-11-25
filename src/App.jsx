@@ -1,33 +1,21 @@
-import './App.css'
-import {createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Main from './Components/Main'
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Projects from './Components/Projects'
-
-const browserRouter = createBrowserRouter([
-  {
-    path: "/",
-    element: <Main />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-  },
-]);
+import "./App.css";
+import { HashRouter, Route, Routes } from "react-router-dom"; // Change BrowserRouter to HashRouter
+import Main from "./Components/Main";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
-    <RouterProvider router={browserRouter}/>
-  )
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
