@@ -29,12 +29,10 @@ const About = () => {
           <span className="font-christian">INTRODUCTION</span>
           <hr className=" bg-white rounded-md " />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            veritatis, aperiam atque quibusdam eos exercitationem impedit
-            officia ipsam asperiores! Quasi, vero deleniti? Vero similique ipsam
-            inventore iure id? Alias ipsam adipisci ipsa natus nulla officiis
-            asperiores repellat porro, magnam, facilis consequatur rerum
-            nesciunt quaerat expedita iste non dignissimos ab eveniet!
+            I am computer engineering student interested in web development. I
+            have built some key skills in web development and I am eager to
+            apply in real world applications. Excited to kickstart my
+            professional journey and contribute to meaningful projects!
           </p>
         </div>
         <div className="flex flex-col gap-2 shadow-lg shadow-gray-600 bg-orange-600 hover:scale-105 transition duration-200 text-white p-4 mt-5 rounded-tr-xl rounded-bl-xl md:w-2/3 sm:w-1/2 lg:w-2/3 xl:w-2/3 ">
@@ -94,24 +92,6 @@ const About = () => {
             <div className="flex">
               <Laptop />
               <p>MERN stack training</p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-2 shadow-lg shadow-gray-600 bg-orange-600 hover:scale-105 transition duration-200 text-white p-4 mt-5 rounded-tr-xl rounded-bl-xl md:w-2/3 sm:w-1/2 lg:w-2/3 xl:w-2/3 ">
-          <span className="font-christian">PROJECTS</span>
-          <hr className=" bg-white rounded-md " />
-          <div className="flex flex-col ml-5 gap-2">
-            <div className="flex gap-2">
-              <Laptop />
-              <p>Dance Dance Revolution game with C++ and arduino</p>
-            </div>
-            <div className="flex">
-              <Laptop />
-              <p>A platform to share nepali stories with hybrid recommendation system (Academic minor project)</p>
-            </div>
-            <div className="flex">
-              <Laptop />
-              <p>Instagram Clone using MERN stack</p>
             </div>
           </div>
         </div>

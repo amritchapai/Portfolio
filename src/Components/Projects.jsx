@@ -31,6 +31,7 @@ const Projects = () => {
         features={
           "Can be played with and without hardware, 2-player can play at the same time."
         }
+        link={"https://github.com/theculturedteam/rhythm-mania"}
       />
       <ProjectCard
         title={
@@ -50,6 +51,7 @@ const Projects = () => {
         features={
           "Users can read as well as write stores. Stories recommended by both collaborative and content based filtering. User can comment, like stories."
         }
+        link={"https://github.com/theculturedteam/ekadesh"}
       />
       <ProjectCard
         title={"Instagram Clone using MERN stack"}
@@ -68,9 +70,8 @@ const Projects = () => {
         impact={
           "Enhanced my proficiency on MERN stack development and gained insights on authentication and authorization"
         }
-        features={
-          "User authentication, User can like and comment on posts."
-        }
+        features={"User authentication, User can like and comment on posts."}
+        link={"https://github.com/amritchapai/Instagram_Clone"}
       />
     </div>
   );
