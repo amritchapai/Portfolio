@@ -53,7 +53,7 @@ const Navbar = () => {
       setCurrent(2);
     }
     else if(text === "GitHub"){
-      window.location.href = "https://github.com/amritchapai"
+      window.open("https://github.com/amritchapai", "_blank");
     }
     else if(text === "Resume"){
         downloadRef.current.click();

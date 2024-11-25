@@ -29,13 +29,12 @@ const Body = () => {
     <div className="relative">
       <div className="flex h-screen">
         <div className="flex w-[75%] bg-gray-800 items-center text-white pl-10">
-          <div class = "movement" className="group flex flex-col">
+          <div className="group flex flex-col movement">
             <div className="flex gap-5">
               <h1 className="text-5xl">HI,</h1>
               <Hand
                 size={50}
-                style={{}}
-                class = 'hand'
+                className = 'hand'
               />
             </div>
             <div>

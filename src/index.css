@@ -94,5 +94,5 @@ button:focus-visible {
 }
 
 .movement:hover .hand{
-  animation: leftright 0.5s infinite
+  animation: leftright 0.5s infinite ease-in-out
 }

@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="bg-gray-800 w-screen min-h-screen py-8">
+    <div className="bg-gray-800 w-screen min-h-screen py-20">
       <div className="flex flex-row items-center px-3 gap-1">
         <div className="flex flex-1">
           <hr className="w-full h-1 bg-white border-none rounded-md" />
