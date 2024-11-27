@@ -1,27 +1,25 @@
 import { IoHomeOutline } from "react-icons/io5";
 import { BsInfoCircle } from "react-icons/bs";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { FaRegMessage } from "react-icons/fa6";
 import { useLocation, useNavigate } from "react-router-dom";
 import { GrProjects } from "react-icons/gr";
 import { DownloadIcon, GithubIcon } from "lucide-react";
-import resume from "../assets/cv.pdf"
+import resume from "../assets/cv.pdf";
 
 const Navbar = () => {
   const location = useLocation();
-  const activePage = () => {
-    switch (location.pathname) {
-      case "/about":
-        return 1;
-      case "/projects":
-        return 2;
-      case "/contact":
-        return 3;
-      default:
-        return 0;
-    }
-  };
-  const [current, setCurrent] = useState(activePage());
+
+  const [current, setCurrent] = useState(0);
+  useEffect(() => {
+    const pathToIndex = {
+      "/about": 1,
+      "/projects": 2,
+      "/contact": 3,
+    };
+    setCurrent(pathToIndex[location.pathname] || 0);
+  }, [location.pathname]);
+
   const downloadRef = useRef();
   const navigate = useNavigate();
 
