@@ -73,6 +73,29 @@ const Projects = () => {
         features={"User authentication, User can like and comment on posts."}
         link={"https://github.com/amritchapai/Instagram_Clone"}
       />
+      <ProjectCard
+        deploy={"https://todo-sand-five.vercel.app/"}
+        title={"Todo Web App using MERN stack"}
+        overview={
+          "Developed a fully functional Todo Web App where users can create categories and manage tasks with features like adding, editing, marking complete, and prioritizing tasks."
+        }
+        purpose={
+          "Built to strengthen knowledge in TypeScript, full-stack development, improve skills in building RESTful APIs, and enhance UI/UX design by creating user-friendly interfaces."
+        }
+        technologies={
+          "React.js, TypeScript, Node.js, Express, MongoDB, Render (backend hosting), Vercel (frontend hosting)"
+        }
+        role={
+          "This was a solo project where I designed and implemented the frontend UI using React with TypeScript, built APIs for backend operation."
+        }
+        impact={
+          "Significantly improved my skills in MERN stack development, including handling complex UI states, creating robust backend APIs, and deploying full-stack applications."
+        }
+        features={
+          "User authentication, Category and task creation, Task prioritization with color indicators, Editing and marking tasks as complete."
+        }
+        link={"https://github.com/amritchapai/Todo"}
+      />
     </div>
   );
 };
