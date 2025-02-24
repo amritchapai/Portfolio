@@ -71,28 +71,37 @@ button:focus-visible {
   }
 } */
 
-*{
-  color: white,
+* {
+  color: white;
 }
 
-@keyframes leftright{
-  0%{
+@keyframes leftright {
+  0% {
     transform: translateX(0px);
   }
-  25%{
+  25% {
     transform: translateX(10px);
   }
-  50%{
+  50% {
     transform: translateX(0px);
   }
-  75%{
+  75% {
     transform: translateX(-10px);
   }
-  100%{
+  100% {
     transform: translateX(0px);
   }
 }
 
-.movement:hover .hand{
-  animation: leftright 0.5s infinite ease-in-out
+.movement:hover .hand {
+  animation: leftright 0.5s infinite ease-in-out;
+}
+
+.no-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
 }
